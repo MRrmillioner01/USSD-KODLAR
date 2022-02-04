@@ -1,0 +1,88 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+/* .section{
+  background-size:100%;
+  width: 100%;
+  background-position: center;
+  height: 50vh; 
+  background-repeat: no-repeat;
+  background-image:url(../IMAGES/fffffff.png) ;
+} */
+* {
+  box-sizing: border-box;
+}
+.qutilar h1 {
+  color: red;
+ text-align: center;
+ padding-top:30px;
+}
+.qutilar hr{
+width: 30%;
+height: 4px;
+background-color: rgba(0, 0, 0, 0.473);
+border-radius: 8px;
+}
+.qutilar{
+  background-color: chartreuse;
+ width: 650px;
+ height: 700px;
+ margin: 0 auto; 
+}
+.qutilar img{
+  width: 500px;
+  height: 350px;
+margin-left: 75px;
+margin-top: 10px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.box a {
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+}
+.Beeline {
+  margin: 15px;
+  padding: 10px 30px;
+}
+.Mobiuz {
+  margin: 15px;
+  padding: 10px 30px;
+}
+.Ucell {
+  margin: 15px;
+  padding: 10px 30px;
+}
+.Uztelecom {
+  margin: 15px;
+  padding: 10px 30px;
+}
+.Ucell a {
+  padding: 10px 48px;
+  background-color: blueviolet;
+  border: 3px solid blueviolet;
+}
+.Beeline a {
+  padding: 10px 48px;
+  background-color: yellow;
+  border: 3px solid yellow;
+}
+.Mobiuz a {
+  padding: 10px 48px;
+  background-color: red;
+  border: 3px solid red;
+}
+.Uztelecom a {
+  padding: 10px 25px;
+  background-color: rgb(0, 132, 255);
+  border: 3px solid blue;
+}
+a:hover {
+  background-color: black;
+  transition: 0.4s;
+  color:white;
+}

@@ -1,0 +1,62 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
+.qutilar hr{
+  width: 30%;
+}
+.wrapper img {
+  width: 80%;
+  margin-left: 70px;
+}
+.qutilar {
+  width: 700px;
+  margin: 0 auto;
+ border: 1px solid rgba(0, 0, 0, 0.103); 
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.box a {
+  border: 1px solid blueviolet;
+  border-radius: 8px;
+  text-decoration: none;
+  justify-content: space-between;
+  background-color: blueviolet;
+  color: white;
+}
+.box a:hover{
+  box-shadow: 1px 0px 10px 2px black;
+}
+.internet a {
+  padding: 8px 42px;
+}
+.tarif a {
+  padding: 8px 75px;
+}
+.daqiqa a{
+  padding: 8px 45px;
+}
+.aksiya a{
+  padding: 8px 30px;
+}
+.sms a{
+  padding: 8px 50px;
+}
+.ussd a{
+  padding: 8px 13px;
+}
+.menu img{
+width: 15%;
+margin-left: 42%;
+margin-bottom: 20px;
+}
